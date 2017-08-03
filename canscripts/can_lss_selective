@@ -1,0 +1,6 @@
+# switch mode selective
+cansend can0 7E5#4048
+cansend can0 7E5#4101
+cansend can0 7E5#4200
+cansend can0 7E5#433713
+

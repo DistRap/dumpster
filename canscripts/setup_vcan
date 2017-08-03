@@ -1,0 +1,8 @@
+modprobe can
+modprobe can-raw
+modprobe vcan
+
+ip link add type vcan
+ip link add dev vcan0 type vcan
+ip link set vcan0 up
+candump vcan0

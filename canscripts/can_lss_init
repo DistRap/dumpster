@@ -1,0 +1,26 @@
+# identify unconfed
+cansend can0 7E5#4C
+sleep 0.1
+
+# switch mode selective
+cansend can0 7E5#4048
+cansend can0 7E5#4101
+cansend can0 7E5#4200
+cansend can0 7E5#433713
+sleep 0.1
+
+# config node id
+cansend can0 7E5#1101
+sleep 0.1
+
+# store config
+cansend can0 7E5#17
+sleep 0.1
+
+# switch node 01 to pre-op
+cansend can0 000#8001
+
+# start node 01
+#cansend can0 000#0101
+#sleep 0.1
+

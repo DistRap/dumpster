@@ -1,0 +1,12 @@
+# identify
+# vendor
+cansend can0 7E5#4648
+# product
+cansend can0 7E5#4701
+# rev lo/hi
+cansend can0 7E5#480000
+cansend can0 7E5#49FFFF
+# serial lo/hi
+cansend can0 7E5#4a0000
+cansend can0 7E5#4bFFFF
+

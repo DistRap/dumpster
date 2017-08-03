@@ -1,0 +1,12 @@
+modprobe can
+modprobe can-raw
+modprobe slcan
+
+killall slcand &> /dev/null
+
+slcand -F -s8 -S115200 /dev/f4uart can0 &
+
+sleep 1
+
+ip link set can0 up
+candump can0
