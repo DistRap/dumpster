@@ -1,0 +1,2 @@
+out="pics/$( basename $1)".png
+gnuplot -p -e "filename='$1';mytitle='$2';outfile='$out'" gnuplot/complex_file

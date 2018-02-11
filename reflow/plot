@@ -1,0 +1,1 @@
+gnuplot -p -e "filename='$1';mytitle='$2'" gnuplot/complex
