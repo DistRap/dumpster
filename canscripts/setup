@@ -9,4 +9,5 @@ slcand -F -s8 -S115200 /dev/f4uart can0 &
 sleep 1
 
 ip link set can0 up
+echo "Setup done, starting candump"
 candump can0
